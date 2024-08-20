@@ -2,29 +2,29 @@
     background-color: #052347;
     max-width: 1440px;
     width: 100%;
-    // padding: 0 126px 0 142px;
     margin: 0 auto;
-    
+    padding-inline: 40px;
+    padding-top: 50px;
     &-content{
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
         padding: 40px 10px 0;
         align-items: start;
-        column-gap: 70px;
+        column-gap: 50px;
         max-width: 1180px;
+        width: 100%;
         margin: 0 auto;
-
     }
     &-p{
         width: 100%;
-        max-width: 235px;
-        
+        max-width: 235px;  
     }
     &-media{
         display: flex;
         flex-direction: column;
         gap: 10px; 
     }
+        
     &-logo{
         width: 112px;
         height: 29.374px;
