@@ -555,6 +555,7 @@ body {
   justify-content: center;
   gap: 30px;
   max-width: 1172px;
+  margin: 0 auto;
 }
 .footer-media {
   display: flex;
