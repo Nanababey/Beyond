@@ -1,0 +1,88 @@
+$gray: #635F85;
+
+$primary-color: #FF7D00;
+$secondary-color: #5A73E5;
+$gray-dark: #051441;
+$gray-blur: #6B7D92;
+$gray-blur-dark: #7F8EA1;
+$gray-lighter:  #F4F6FD;
+
+:root{
+    --section-spacing: 140px;
+}
+.container{
+    max-width: 1170px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.button{
+    display: inline-block;
+    outline: none;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 100rem;
+    padding: 11px 32px;
+    text-decoration: none;
+    &--primary{
+        color: white;
+        background: linear-gradient(103deg, #F67102 5.1%, #F4A91E 86.29%);
+
+    }
+
+    &--secondary{
+        color: $primary-color;
+        border: 1px solid $gray;
+    }
+    
+}
+
+.global{
+    &-caption{
+        text-transform: uppercase;
+        color: $primary-color;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 2.405px;
+        display: block;
+
+    }
+    &-heading{
+        color: $gray-dark;
+        font-weight: bold;
+        &--huge{
+            font-size: 50px;
+            line-height: calc(56/50);
+        }
+        &--big{
+            font-size: 40px;
+            line-height: calc(50/40); 
+        }
+
+        &--normal{
+            font-size: 21px;
+            line-height: calc(31.5/21); 
+            font-weight: 600;
+        }
+    }
+    &-text{
+        font-size: 16px;
+        line-height: calc(26/16);
+        color: $gray-blur;
+    }
+}
